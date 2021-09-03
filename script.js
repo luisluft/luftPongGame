@@ -11,7 +11,7 @@ const gameOverEl = document.createElement("div");
 
 // Paddle
 const paddleHeight = 10;
-const paddleWidth = 50;
+let paddleWidth = 50;
 const paddleDiff = 25;
 let paddleBottomX = 225;
 let paddleTopX = 225;
@@ -34,6 +34,7 @@ if (isMobile.matches) {
   speedY = -2;
   speedX = speedY;
   computerSpeed = 4;
+  paddleWidth = 75;
 } else {
   speedY = -1;
   speedX = speedY;
