@@ -44,7 +44,7 @@ if (isMobile.matches) {
 // Score
 let playerScore = 0;
 let computerScore = 0;
-const winningScore = 5;
+const winningScore = 7;
 let isGameOver = false;
 let isNewGame = true;
 
